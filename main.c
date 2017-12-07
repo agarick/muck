@@ -12,7 +12,7 @@
     from scratch, for educational purposes.
   - The current phase is a replication of Daniel Holden's C implementation,
     and expects his mpc.{c,h} in the same directory.
-  - build & run with: cc -std=c99 -Wall -ledit -lm main.c mpc.c && ./a.out
+  - build & run with: cc -std=c99 -Wall -ledit -lm mpc.c main.c && ./a.out
  */
 
 #include <stdio.h>
