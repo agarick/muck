@@ -1,11 +1,11 @@
 [package]
-name = "scream"
+name = "tack"
 version = "0.1.0"
-description = "a scheme implemented in rust"
+description = "a rusty scheme"
 authors = ["agaric <agaric@protonmail.com>"]
 license = "MIT"
-homepage = "https://github.com/agarick/scream"
-repository = "https://github.com/agarick/scream"
+homepage = "https://github.com/agarick/tack"
+repository = "https://github.com/agarick/tack"
 
 [dependencies]
 nom = "^3.2"

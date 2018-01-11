@@ -1,3 +1,6 @@
+// note: much code taken from Michael Gattozzi's
+//       https://github.com/mgattozzi/schemers
+
 extern crate rustyline;
 #[macro_use]
 extern crate nom;
@@ -8,7 +11,7 @@ fn main() {
     let mut reader = rustyline::Editor::<()>::new();
 
     loop {
-        match reader.readline("scrm> ") {
+        match reader.readline("tack> ") {
             Ok(line) => {
                 if line.trim() == "(exit)" { break; }
                 else { println!("{}", line); }
