@@ -1,0 +1,12 @@
+[package]
+name = "scream"
+version = "0.1.0"
+description = "a scheme implemented in rust"
+authors = ["agaric <agaric@protonmail.com>"]
+license = "MIT"
+homepage = "https://github.com/agarick/scream"
+repository = "https://github.com/agarick/scream"
+
+[dependencies]
+nom = "^3.2"
+rustyline = "1.0.0"

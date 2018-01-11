@@ -1,2 +1,3 @@
-a.out
-mpc.*
+/ignore/
+/target/
+**/*.rs.bk
