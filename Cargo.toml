@@ -8,5 +8,3 @@ homepage = "https://github.com/blobject/tack"
 repository = "https://github.com/blobject/tack"
 
 [dependencies]
-nom = "^3.2"
-rustyline = "1.0.0"
